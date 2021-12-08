@@ -1,30 +1,3 @@
-// let box=document.querySelector(".box");
-// let dragarea=document.querySelector(".drag-area");
-
-// let id;
-// box.ondragstart=()=>{
-//     id=document.getElementById("drag").getAttribute("id");
-// };
-
-// dragarea.ondragcenter=()=>{};
-
-// dragarea.ondragleave=()=>{};
-
-// dragarea.ondragover=(e)=>{
-//     e.preventDefault();
-// };
-
-// dragarea.ondrop=function(){
-//     let dragElement=document.getElementById(id);
-//     dragarea.appendChild(dragElement);
-    
-//     var x=e.pageX;
-//     var y=e.pageY;
-
-//     dragElement.style.left=x+"px";
-//     dragElement.style.top=y+"px";
-// }
-
 (function dragDrop(){
 
     let coordX;
